@@ -13,6 +13,10 @@
       "platform": "linux | freebsd | openbsd | osx"
     },
     "harfbuzz",
+    {
+        "name": "qt",
+        "platform": "windows"
+    },
     "icu",
     "libjpeg-turbo",
     "libjxl",
@@ -47,7 +51,7 @@
     },
     {
       "name": "skia",
-      "platform": "linux | freebsd | openbsd",
+      "platform": "linux | freebsd | openbsd | windows",
       "features": [
         "vulkan"
       ]
